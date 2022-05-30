@@ -1,0 +1,22 @@
+{% extends "base.html.twig" %}
+
+{% block mycss %}
+    <style>
+        h2{
+            color: red;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <h1>Welcome {{ name }}</h1>
+
+    <h2><u>Liste des personnages: </u></h2>
+
+    <ul>
+        {% for person in tab %}
+            <li>{{ person }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

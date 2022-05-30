@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    text-align: center;
+    padding: 2rem 0rem;
+    background-color: #050f5a;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
